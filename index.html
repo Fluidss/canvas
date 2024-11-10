@@ -296,10 +296,12 @@
         </svg>
     </div>
     <div class="monster"></div>
-    <!-- <div class="hintSun">
-        click toggle day
-    </div> -->
-    <!-- <div class="tree"></div> -->
+    <script>
+    let sun  = document.querySelector('.sun');
+    sun.addEventListener('click',()=>{
+    document.body.classList.toggle = 'night';    
+});
+    </script>
 </body>
 
 </html>
